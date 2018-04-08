@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <!-- CORE CSS -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/mdl/material.indigo-blue.min.css" rel="stylesheet">
+
+    <!-- THEME CSS -->
+    <link href="assets/css/essentials.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/layout.css" rel="stylesheet" type="text/css">
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <link href="assets/css/header-1.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/color_scheme/blue.css" rel="stylesheet" type="text/css" id="color_scheme">
+
+    <!-- RTL CSS -->
+    <link href="assets/plugins/bootstrap/RTL/bootstrap-rtl-merged.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/layout-RTL.css" rel="stylesheet" type="text/css" />
+
+    <link href="assets/css/demo-menu-blue.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="smoothscroll enable-animation enable-materialdesign">
+
+    <div id="wrapper">
+
+        <div id="header" class="navbar-toggleable-md sticky clearfix dark b-0">
+
+            <!-- SEARCH HEADER -->
+            <div class="search-box over-header" style="display: none;">
+                <a id="closeSearch" href="#" class="fa fa-remove"></a>
+
+                <form action="page-search-result-1.html" method="get">
+                    <input type="text" class="form-control" placeholder="بحث">
+                </form>
+            </div>
+            <!-- /SEARCH HEADER -->
+
+            <!-- TOP NAV -->
+            <header id="topNav">
+                <div class="container">
+
+                    <!-- Mobile Menu Button -->
+                    <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+                    <!-- BUTTONS -->
+                    <ul class="float-right nav nav-pills nav-second-main">
+
+                        <!-- SEARCH -->
+                        <li class="search">
+                            <a href="javascript:;">
+									<i class="fa fa-search"></i>
+								</a>
+                        </li>
+                        <!-- /SEARCH -->
+
+                    </ul>
+                    <!-- /BUTTONS -->
+
+                    <!-- Logo -->
+                    <a class="logo float-left" href="index.html">
+							<img src="assets/images/logo.png" alt="">
+						</a>
+
+                    <!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+                    <div class="navbar-collapse collapse float-right nav-main-collapse submenu-color">
+                        <nav class="nav-main">
+
+                            <!--
+									NOTE
+									
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+									Direct Link Example: 
+
+									<li>
+										<a href="#">HOME</a>
+									</li>
+								-->
+                            <ul id="topMain" class="nav nav-pills nav-main">
+                                <li class="dropdown mega-menu">
+                                    <!-- PORTFOLIO -->
+                                    <a class="dropdown-toggle" href="#">
+											PORTFOLIO
+										</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="row">
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><span>GRID</span></li>
+                                                        <li><a href="portfolio-grid-1-columns.html">1 COLUMN</a></li>
+                                                        <li><a href="portfolio-grid-2-columns.html">2 COLUMNS</a></li>
+                                                        <li><a href="portfolio-grid-3-columns.html">3 COLUMNS</a></li>
+                                                        <li><a href="portfolio-grid-4-columns.html">4 COLUMNS</a></li>
+                                                        <li><a href="portfolio-grid-5-columns.html">5 COLUMNS</a></li>
+                                                        <li><a href="portfolio-grid-6-columns.html">6 COLUMNS</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><span>MASONRY</span></li>
+                                                        <li><a href="portfolio-masonry-2-columns.html">2 COLUMNS</a></li>
+                                                        <li><a href="portfolio-masonry-3-columns.html">3 COLUMNS</a></li>
+                                                        <li><a href="portfolio-masonry-4-columns.html">4 COLUMNS</a></li>
+                                                        <li><a href="portfolio-masonry-5-columns.html">5 COLUMNS</a></li>
+                                                        <li><a href="portfolio-masonry-6-columns.html">6 COLUMNS</a></li>
+
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><span>SINGLE</span></li>
+                                                        <li><a href="portfolio-single-extended.html">EXTENDED ITEM</a></li>
+                                                        <li><a href="portfolio-single-parallax.html">PARALLAX IMAGE</a></li>
+                                                        <li><a href="portfolio-single-slider.html">SLIDER GALLERY</a></li>
+                                                        <li><a href="portfolio-single-html5-video.html">HTML5 VIDEO</a></li>
+                                                        <li><a href="portfolio-single-masonry-thumbs.html">MASONRY THUMBS</a></li>
+                                                        <li><a href="portfolio-single-embed-video.html">EMBED VIDEO</a></li>
+                                                        <li><a href="portfolio-single-project.html">SINGLE PROJECT</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><span>LAYOUT</span></li>
+                                                        <li><a href="portfolio-layout-default.html">DEFAULT</a></li>
+                                                        <li><a href="portfolio-layout-aside-left.html">LEFT SIDEBAR</a></li>
+                                                        <li><a href="portfolio-layout-aside-right.html">RIGHT SIDEBAR</a></li>
+                                                        <li><a href="portfolio-layout-aside-both.html">BOTH SIDEBAR</a></li>
+                                                        <li><a href="portfolio-layout-fullwidth.html">FULL WIDTH (100%)</a></li>
+                                                        <li><a href="portfolio-layout-tabfilter.html">TAB FILTER &amp; PAGINATION</a></li>
+
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><span>LOADING</span></li>
+                                                        <li><a href="portfolio-loading-pagination.html">PAGINATION</a></li>
+                                                        <li><a href="portfolio-loading-jpagination.html">JQUERY PAGINATION</a></li>
+                                                        <li><a href="portfolio-loading-infinite-scroll.html">INFINITE SCROLL</a></li>
+                                                        <li><a href="portfolio-loading-ajax-page.html">AJAX IN PAGE</a></li>
+                                                        <li><a href="portfolio-loading-ajax-modal.html">AJAX IN MODAL</a></li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <!-- BLOG and SHOP -->
+                                    <a class="dropdown-toggle" href="#">
+											BLOG &amp; SHOP
+										</a>
+                                    <ul class="dropdown-menu">
+
+                                        <!-- BLOG -->
+                                        <li>
+                                            <h4><i class="fa fa-cubes"></i> BLOG</h4>
+                                        </li>
+
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">
+													DEFAULT
+												</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="blog-default-aside-left.html">LEFT SIDEBAR</a></li>
+                                                <li><a href="blog-default-aside-right.html">RIGHT SIDEBAR</a></li>
+                                                <li><a href="blog-default-aside-both.html">BOTH SIDEBAR</a></li>
+                                                <li><a href="blog-default-fullwidth.html">FULL WIDTH</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">
+													GRID
+												</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="blog-column-2colums.html">2 COLUMNS</a></li>
+                                                <li><a href="blog-column-3colums.html">3 COLUMNS</a></li>
+                                                <li><a href="blog-column-4colums.html">4 COLUMNS</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="blog-column-aside-left.html">LEFT SIDEBAR</a></li>
+                                                <li><a href="blog-column-aside-right.html">RIGHT SIDEBAR</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">
+													MASONRY
+												</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="blog-masonry-2colums.html">2 COLUMNS</a></li>
+                                                <li><a href="blog-masonry-3colums.html">3 COLUMNS</a></li>
+                                                <li><a href="blog-masonry-4colums.html">4 COLUMNS</a></li>
+                                                <li><a href="blog-masonry-fullwidth.html">FULLWIDTH</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">
+													TIMELINE
+												</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="blog-timeline-aside-left.html">LEFT SIDEBAR</a></li>
+                                                <li><a href="blog-timeline-aside-right.html">RIGHT SIDEBAR</a></li>
+                                                <li><a href="blog-timeline-right-aside-right.html">RIGHT + TIMELINE RIGHT</a></li>
+                                                <li><a href="blog-timeline-right-aside-left.html">LEFT + TIMELINE RIGHT</a></li>
+                                                <li><a href="blog-timeline-fullwidth-left.html">FULL WIDTH - LEFT</a></li>
+                                                <li><a href="blog-timeline-fullwidth-right.html">FULL WIDTH - RIGHT</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">
+													SMALL IMAGE
+												</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="blog-smallimg-aside-left.html">LEFT SIDEBAR</a></li>
+                                                <li><a href="blog-smallimg-aside-right.html">RIGHT SIDEBAR</a></li>
+                                                <li><a href="blog-smallimg-aside-both.html">BOTH SIDEBAR</a></li>
+                                                <li><a href="blog-smallimg-fullwidth.html">FULL WIDTH</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="blog-smallimg-alternate-1.html">ALTERNATE 1</a></li>
+                                                <li><a href="blog-smallimg-alternate-2.html">ALTERNATE 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">
+													SINGLE
+												</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="blog-single-default.html">DEFAULT</a></li>
+                                                <li><a href="blog-single-aside-left.html">LEFT SIDEBAR</a></li>
+                                                <li><a href="blog-single-aside-right.html">RIGHT SIDEBAR</a></li>
+                                                <li><a href="blog-single-fullwidth.html">FULL WIDTH</a></li>
+                                                <li><a href="blog-single-small-image-left.html">SMALL IMAGE - LEFT</a></li>
+                                                <li><a href="blog-single-small-image-right.html">SMALL IMAGE - RIGHT</a></li>
+                                                <li><a href="blog-single-big-image.html">BIG IMAGE</a></li>
+                                                <li><a href="blog-single-fullwidth-image.html">FULLWIDTH IMAGE</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">
+													COMMENTS
+												</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="blog-comments-bordered.html#comments">BORDERED COMMENTS</a></li>
+                                                <li><a href="blog-comments-default.html#comments">DEFAULT COMMENTS</a></li>
+                                                <li><a href="blog-comments-facebook.html#comments">FACEBOOK COMMENTS</a></li>
+                                                <li><a href="blog-comments-disqus.html#comments">DISQUS COMMENTS</a></li>
+                                            </ul>
+                                        </li>
+
+
+                                        <!-- SHOP -->
+                                        <li>
+                                            <h4><i class="fa fa-opencart"></i> SHOP</h4>
+                                        </li>
+
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">
+													1 COLUMN
+												</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="shop-1col-left.html">LEFT SIDEBAR</a></li>
+                                                <li><a href="shop-1col-right.html">RIGHT SIDEBAR</a></li>
+                                                <li><a href="shop-1col-both.html">BOTH SIDEBAR</a></li>
+                                                <li><a href="shop-1col-full.html">FULL WIDTH</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">
+													2 COLUMNS
+												</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="shop-2col-left.html">LEFT SIDEBAR</a></li>
+                                                <li><a href="shop-2col-right.html">RIGHT SIDEBAR</a></li>
+                                                <li><a href="shop-2col-both.html">BOTH SIDEBAR</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">
+													3 COLUMNS
+												</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="shop-3col-left.html">LEFT SIDEBAR</a></li>
+                                                <li><a href="shop-3col-right.html">RIGHT SIDEBAR</a></li>
+                                                <li><a href="shop-3col-full.html">FULL WIDTH</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">
+													4 COLUMNS
+												</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="shop-4col-left.html">LEFT SIDEBAR</a></li>
+                                                <li><a href="shop-4col-right.html">RIGHT SIDEBAR</a></li>
+                                                <li><a href="shop-4col-full.html">FULL WIDTH</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#">
+													SINGLE PRODUCT
+												</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="shop-single-left.html">LEFT SIDEBAR</a></li>
+                                                <li><a href="shop-single-right.html">RIGHT SIDEBAR</a></li>
+                                                <li><a href="shop-single-both.html">BOTH SIDEBAR</a></li>
+                                                <li><a href="shop-single-full.html">FULL WIDTH</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="shop-compare.html">COMPARE</a></li>
+                                        <li><a href="shop-cart.html">CART</a></li>
+                                        <li><a href="shop-checkout.html">CHECKOUT</a></li>
+                                        <li><a href="shop-checkout-final.html">ORDER PLACED</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="dropdown mega-menu">
+                                    <!-- SHORTCODES -->
+                                    <a class="dropdown-toggle" href="#">
+											SHORTCODES
+										</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="row">
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="shortcode-animations.html">ANIMATIONS</a></li>
+                                                        <li><a href="shortcode-buttons.html">BUTTONS</a></li>
+                                                        <li><a href="shortcode-carousel.html">CAROUSEL</a></li>
+                                                        <li><a href="shortcode-charts.html">GRAPHS</a></li>
+                                                        <li><a href="shortcode-clients.html">CLIENTS</a></li>
+                                                        <li><a href="shortcode-columns.html">GRID &amp; COLUMNS</a></li>
+                                                        <li><a href="shortcode-counters.html">COUNTERS</a></li>
+                                                        <li><a href="shortcode-forms.html">FORM ELEMENTS</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="shortcode-dividers.html">DIVIDERS</a></li>
+                                                        <li><a href="shortcode-icon-boxes.html">BOXES &amp; ICONS</a></li>
+                                                        <li><a href="shortcode-galleries.html">GALLERIES</a></li>
+                                                        <li><a href="shortcode-headings.html">HEADING STYLES</a></li>
+                                                        <li><a href="shortcode-icon-lists.html">ICON LISTS</a></li>
+                                                        <li><a href="shortcode-labels.html">LABELS &amp; BADGES</a></li>
+                                                        <li><a href="shortcode-lightbox.html">LIGHTBOX</a></li>
+                                                        <li><a href="shortcode-forms-editors.html">HTML EDITORS</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="shortcode-cards.html">Cards</a></li>
+                                                        <li><a href="shortcode-maps.html"><span class="badge badge-success float-right">new</span> MAPS</a></li>
+                                                        <li><a href="shortcode-media-embeds.html">MEDIA EMBEDS</a></li>
+                                                        <li><a href="shortcode-modals.html">MODAL / POPOVER / NOTIF</a></li>
+                                                        <li><a href="shortcode-navigations.html">NAVIGATIONS</a></li>
+                                                        <li><a href="shortcode-paginations.html">PAGINATIONS</a></li>
+                                                        <li><a href="shortcode-progress-bar.html">PROGRESS BARS</a></li>
+                                                        <li><a href="shortcode-widgets.html">WIDGETS</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="shortcode-pricing.html">PRICING BOXES</a></li>
+                                                        <li><a href="shortcode-process-steps.html">PROCESS STEPS</a></li>
+                                                        <li><a href="shortcode-callouts.html">CALLOUTS</a></li>
+                                                        <li><a href="shortcode-info-bars.html">INFO BARS</a></li>
+                                                        <li><a href="shortcode-blockquotes.html">BLOCKQUOTES</a></li>
+                                                        <li><a href="shortcode-responsive.html">RESPONSIVE</a></li>
+                                                        <li><a href="shortcode-sections.html">SECTIONS</a></li>
+                                                        <li><a href="shortcode-social-icons.html">SOCIAL ICONS</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="shortcode-alerts.html">ALERTS</a></li>
+                                                        <li><a href="shortcode-styled-icons.html">STYLED ICONS</a></li>
+                                                        <li><a href="shortcode-tables.html">TABLES</a></li>
+                                                        <li><a href="shortcode-tabs.html">TABS</a></li>
+                                                        <li><a href="shortcode-testimonials.html">TESTIMONIALS</a></li>
+                                                        <li><a href="shortcode-thumbnails.html">THUMBNAILS</a></li>
+                                                        <li><a href="shortcode-toggles.html">TOGGLES</a></li>
+                                                        <li><a href="shortcode-material-design-badges.html"><span class="badge badge-danger float-right">new</span> <b>MATERIAL DESIGN</b></a></li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+
+                                <!-- 
+										MENU ANIMATIONS
+											.nav-animate-fadeIn
+											.nav-animate-fadeInUp
+											.nav-animate-bounceIn
+											.nav-animate-bounceInUp
+											.nav-animate-flipInX
+											.nav-animate-flipInY
+											.nav-animate-zoomIn
+											.nav-animate-slideInUp
+
+											.nav-hover-animate 		= animate text on hover
+
+											.hover-animate-bounceIn = bounceIn effect on mouse over of main menu
+									-->
+                                <li class="dropdown mega-menu nav-animate-fadeIn nav-hover-animate hover-animate-bounceIn">
+                                    <!-- THEMATIC -->
+                                    <a class="dropdown-toggle noicon" href="#">
+											<span class="badge badge-danger float-right fs-11">v2</span>
+											<b>NEW</b>
+										</a>
+                                    <ul class="dropdown-menu dropdown-menu-clean">
+                                        <li>
+                                            <div class="row">
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><span>PACKS : READY TO USE</span></li>
+                                                        <li class="divider"></li>
+                                                        <li>
+                                                            <span class="fs-11 mt-0 pb-15 pt-15 text-info">NEW AND HOT: COMPLETE PACKAGES READY TO USE</span>
+                                                        </li>
+                                                        <li class="divider"></li>
+                                                        <li><a target="_blank" href="pack-realestate-home-1.html">REAL ESTATE</a></li>
+                                                        <li><a target="_blank" href="pack-megashop-home-1.html">MEGA SHOP</a></li>
+                                                        <li><a target="_blank" href="pack-hotel-home-1.html">HOTEL v1</a></li>
+                                                        <li><a target="_blank" href="pack-hotel-v2-home-1.html">HOTEL v2</a></li>
+                                                        <li><a target="_blank" href="pack-photography-home-1.html">PHOTOGRAPHY / PORTFOLIO</a></li>
+                                                        <li><a target="_blank" href="pack-caffe-home-1.html">CAFFE</a></li>
+                                                        <li><a target="_blank" href="pack-caffe-onepage.html">CAFFE - ONEPAGE</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><span>NEW PAGES</span></li>
+                                                        <li><a target="_blank" href="portfolio-single-project.html">PORTFOLIO SINGLE</a></li>
+                                                        <li><a target="_blank" href="page-cookie-alert.html">COOKIE ALERT</a></li>
+                                                        <li><a target="_blank" href="page-category.html">CATEGORY PAGE</a></li>
+
+                                                        <li><span>IMPROVED</span></li>
+                                                        <li><a target="_blank" href="index-thematics-hosting.html">HOMEPAGE : <b>HOSTING</b></a></li>
+                                                        <li><a target="_blank" href="index-thematics-restaurant.html">HOMEPAGE : <b>RESTAURANT</b></a></li>
+                                                        <li><a target="_blank" href="index-thematics-lawyer.html">HOMEPAGE : <b>LAWYER</b></a></li>
+                                                        <li><a target="_blank" href="index-thematics-fashion.html">HOMEPAGE : <b>FASHION</b></a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-5th">
+                                                    <ul class="list-unstyled">
+                                                        <li><span>NEW COMPONENTS</span></li>
+                                                        <li><a target="_blank" href="shortcode-material-design-badges.html">MATERIAL DESIGN LITE</a></li>
+
+                                                        <li><span>NEW FEATURES</span></li>
+                                                        <li><a target="_blank" href="feature-menu-12.html">NEW HEADER/MENU</a></li>
+                                                        <li><a target="_blank" href="feature-menu-dd-effects.html">MENU DROPDOWN EFFECTS</a></li>
+                                                        <li><a target="_blank" href="shortcode-carousel-2.html">OWL CAROUSEL 2</a></li>
+                                                        <li><a target="_blank" href="shortcode-thumbnails.html">IMAGE HOVER/STYLES</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-6 hidden-sm text-center">
+                                                    <div class="p-15 block">
+                                                        <img class="img-fluid" src="" alt="">
+                                                    </div>
+                                                    <p class="menu-caption hidden-xs-down text-muted text-center">
+                                                        THE MOST COMPLETE HTML TEMPLATE
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </div>
+
+                </div>
+            </header>
+            <!-- /Top Nav -->
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+
+            <!-- Row Box -->
+            <div class="col-md-12">
+                <div class="box-static box-border-top p-30">
+                    <div class="box-title mb-30">
+                        <h4>الشيخ عبد الله</h4>
+                    </div>
+                    Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Integer posuere erat. Nullam id dolor id nibh ultricies vehicula ut id
+                    <hr>
+
+
+
+                    <!-- Row Info Bar -->
+                    <div class="row">
+                        <div class="col-md-12 info-bar info-bar-clean info-bar-bordered">
+                            <div class="col-sm-3">
+                                <a href="#">
+                                    <div class="col-sm-6">
+                                        <i class="float-left fa fa-microphone ico-rounded ico-hover ico-lg"></i>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <span class="countTo" data-speed="4000">29</span>
+                                        <h4>الخطب</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="col-sm-6">
+                                    <i class="float-left fa fa-folder-open ico-rounded ico-hover ico-lg"></i>
+                                </div>
+                                <div class="col-sm-6">
+                                    <span class="countTo" data-speed="3000">529</span>
+                                    <h4>الدروس</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="col-sm-6">
+                                    <i class="float-left fa fa-book ico-rounded ico-hover ico-lg"></i>
+                                </div>
+                                <div class="col-sm-6">
+                                    <span class="countTo" data-speed="4000">79</span>
+                                    <h4>الكتب</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="col-sm-6">
+                                    <i class="float-left fa fa-bullhorn ico-rounded ico-hover ico-lg"></i>
+                                </div>
+                                <div class="col-sm-6">
+                                    <span class="countTo" data-speed="4000">52</span>
+                                    <h4>الفتاوى</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- End Row Info Bar -->
+
+                </div>
+            </div>
+            <!-- End Row Box -->
+
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="row">
+
+            <!-- Row Box -->
+            <div class="col-md-12">
+                <div class="box-static box-border-top p-30">
+                    <div class="box-title mb-30">
+                        <h4>الشيخ عبد الله</h4>
+                    </div>
+                    Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Integer posuere erat. Nullam id dolor id nibh ultricies vehicula ut id
+                    <hr>
+
+
+
+                    <!-- Row Info Bar -->
+                    <div class="row">
+                        <div class="col-md-12 info-bar info-bar-clean info-bar-bordered">
+                            <div class="col-sm-3">
+                                <div class="col-sm-6">
+                                    <i class="float-left fa fa-microphone ico-rounded ico-hover ico-lg"></i>
+                                </div>
+                                <div class="col-sm-6">
+                                    <span class="countTo" data-speed="4000">29</span>
+                                    <h4>الخطب</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="col-sm-6">
+                                    <i class="float-left fa fa-folder-open ico-rounded ico-hover ico-lg"></i>
+                                </div>
+                                <div class="col-sm-6">
+                                    <span class="countTo" data-speed="3000">529</span>
+                                    <h4>الدروس</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="col-sm-6">
+                                    <i class="float-left fa fa-book ico-rounded ico-hover ico-lg"></i>
+                                </div>
+                                <div class="col-sm-6">
+                                    <span class="countTo" data-speed="4000">79</span>
+                                    <h4>الكتب</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="col-sm-6">
+                                    <i class="float-left fa fa-bullhorn ico-rounded ico-hover ico-lg"></i>
+                                </div>
+                                <div class="col-sm-6">
+                                    <span class="countTo" data-speed="4000">52</span>
+                                    <h4>الفتاوى</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- End Row Info Bar -->
+
+                </div>
+            </div>
+            <!-- End Row Box -->
+
+        </div>
+    </div>
+
+
+
+    <!-- FOOTER -->
+    <footer id="footer">
+    </footer>
+    <!-- /FOOTER -->
+
+    <!-- JAVASCRIPT FILES -->
+    <script>
+        var plugin_path = 'assets/plugins/';
+    </script>
+    <script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+    <script src="assets/js/scripts.js"></script>
+
+    <script type="text/javascript" src="assets/plugins/mdl/material.min.js"></script>
+
+</body>
+
+</html>
